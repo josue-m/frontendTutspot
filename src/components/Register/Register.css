@@ -1,0 +1,85 @@
+/* Login.css */
+
+.login-container {
+  display: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 85%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(30%);
+}
+
+.login-form {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  color: #495057;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #D35D45;
+}
+
+.remember-me {
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #D35D45;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #D35D45;
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.create-account a {
+  color: #D35D45;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.create-account a:hover {
+  color: #D35D45;
+}

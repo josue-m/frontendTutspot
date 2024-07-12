@@ -1,0 +1,130 @@
+
+
+body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+
+/* Add this CSS to your TutorMain.css file */
+.card.mb-4 .card-body .input-group label {
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-bottom: 5px; /* Adjust the margin bottom as needed */
+}
+
+.card.mb-4 .card-body .input-group input[type="text"],
+.card.mb-4 .card-body .input-group input[type="datetime-local"],
+.card.mb-4 .card-body .input-group input[type="file"] {
+  padding: 6px 10px; /* Adjust the padding as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  height: 30px; /* Adjust the height as needed */
+}
+
+.card.mb-4 .card-body .input-group input[type="text"]::placeholder,
+.card.mb-4 .card-body .input-group input[type="datetime-local"]::placeholder,
+.card.mb-4 .card-body .input-group input[type="file"]::placeholder {
+  font-size: 12px; /* Adjust the font size of the placeholder text */
+}
+
+.card.mb-4 .card-header {
+  background-color: #E96B56; /* Set the background color to orange */
+  color: white; /* Set the text color to white */
+}
+
+.card-header1 {
+  background-color: #E96B56; /* Set the background color to orange */
+  color: white; /* Set the text color to white */
+  max-height: 40px;
+}
+
+/*
+ * Sidebar
+ */
+ .sidebar {
+  position: fixed; /* Change to fixed position */
+  top: 0; /* Adjust the top position to align with the header */
+  left: 0;
+  z-index: 1000; /* Increase the z-index to ensure it appears in front of the header */
+  width: 250px; /* Example width */
+  height: 100%; /* Ensure full height */
+  padding-top: 70px; /* Adjust padding to account for the header height */
+  background-color: #FDEBD0; /* Example background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+    width: 100%; /* Example width for smaller screens */
+    padding-top: 0; /* Adjust padding for smaller screens */
+    box-shadow: none; /* Remove box shadow for smaller screens */
+  }
+}
+
+/* Additional styles for the sidebar content */
+.sidebar-content {
+  padding: 20px; /* Example padding */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}

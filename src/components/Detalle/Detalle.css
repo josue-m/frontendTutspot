@@ -1,0 +1,267 @@
+/* Pago.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.d-md-flex {
+    display: flex !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.card {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.box1 {
+    padding: 3rem !important;
+}
+
+.box2 {
+    padding: 2rem !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.p-md-5 {
+    padding: 3rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.fw-bolder {
+    font-weight: bold !important;
+}
+
+.h5 {
+    font-size: 1.25rem;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.px-2 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.px-md-4 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.px-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.ps-1 {
+    padding-left: 0.25rem !important;
+}
+
+.pe-1 {
+    padding-right: 0.25rem !important;
+}
+
+.ps-2 {
+    padding-left: 0.5rem !important;
+}
+
+.ps-3 {
+    padding-left: 1rem !important;
+}
+
+.pe-md-5 {
+    padding-right: 3rem !important;
+}
+
+.ps-md-5 {
+    padding-left: 3rem !important;
+}
+
+.pe-4 {
+    padding-right: 1.5rem !important;
+}
+
+.ps-4 {
+    padding-left: 1.5rem !important;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.ms-auto {
+    margin-left: auto !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.nav-link {
+    color: #343a40 !important;
+}
+
+.nav-link.active {
+    background-color: #fff !important;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+}
+
+.nav-item {
+    margin-bottom: 0 !important;
+}
+
+.btn {
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+}
+
+.btn-outline-primary {
+    color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.btn-success {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.btn-success:hover {
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.bi-list,
+.fas {
+    color: #fff;
+}
+
+.mobile-nav-toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.inputWithIcon input[type="text"],
+.inputWithIcon input[type="password"],
+.inputWithIcon input[type="datetime-local"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+
+.inputWithIcon input[type="text"]:focus,
+.inputWithIcon input[type="password"]:focus,
+.inputWithIcon input[type="datetime-local"]:focus {
+    border: 1px solid #007bff;
+}
+
+.inputWithIcon span {
+    position: absolute;
+    padding: 12px 8px;
+    pointer-events: none;
+}
+
+.inputWithIcon img {
+    max-width: 25px;
+}
+
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+}
+
+.inputWithIcon input[type="password"] {
+    padding-left: 40px;
+}
+
+.inputWithIcon input[type="datetime-local"] {
+    padding-left: 40px;
+}
+
